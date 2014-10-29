@@ -1,8 +1,14 @@
-Recursive Bookmark Sorter
+## Sort your chrome bookmarks recursive
 
-Description:
-Sort your chrome bookmarks recursive
+### Description
+This extension can sort ALL your bookmarks RECURSIVELY.
+Without this extenion you can sort ONLY ONE bookmark folder by Chrome Bookmark Manager.
+Now, ALL bookmarks will be sorted by just one click !
 
-----------------------------------------
-version 0.1.0
-feature:sort bookmarks recursive
+### Changeslog
+
+#### version 0.2.0
+Add collation to support Chinese Pinyin
+
+#### version 0.1.0
+first version
