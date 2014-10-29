@@ -35,12 +35,8 @@ function is_root(node) {
 function comparator(x, y) {
     var x_key = (is_folder(x) ? '0' : '1') + x.title.toLowerCase();
     var y_key = (is_folder(y) ? '0' : '1') + y.title.toLowerCase();
-    if (x_key == y_key)
-        return 0;
-    else if(x_key > y_key)
-        return 1;
-    else
-        return -1;
+
+    return CollationZh.compare(x_key, y_key);
 }
 
 
@@ -50,7 +46,9 @@ function BookmarkModel__SortChildren(parent) {
     if (!parent || !is_folder(parent) || is_root(parent) ||
             parent.children.length <= 1)
         return;
+
     parent.children.sort(comparator);
+
     for (var i in parent.children) {
         var child = parent.children[i];
         if (i == child.index)
