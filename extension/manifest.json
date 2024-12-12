@@ -1,7 +1,7 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Recursive Bookmark Sorter",
-    "version": "0.2.0",
+    "version": "0.2.1",
 
     "description": "Sort your bookmarks recursive",
     "icons": {
@@ -10,7 +10,7 @@
         "16": "assets/image/icon_16.png"
     },
 
-    "browser_action": {
+    "action": {
         "default_icon": "assets/image/icon_48.png",
         "default_popup": "popup.html"
     },
