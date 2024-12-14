@@ -7,6 +7,9 @@ Now, ALL bookmarks will be sorted by just one click !
 
 ### Changeslog
 
+#### version 0.2.1
+Upgrade chrome manifest version to v3
+
 #### version 0.2.0
 Add collation to support Chinese Pinyin
 
